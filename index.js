@@ -36,7 +36,7 @@ client.on('ready', () => {
 
 client.on('ready', () => {
     // Set bot status to: "Playing wth Javascript"
-    client.user.setActivity("with Javascript")
+    client.user.setActivity("with Javascript", {type: "PLAYING"})
 
     // Alternatively, you can set the activity to any of the following:
     // PLAYING, STREAMING, LISTENING, WATCHING

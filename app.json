@@ -1,0 +1,20 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ],
+  "description": "Private Moderation bot for the PhantomDEV Discord",
+  "env": {
+    "undefined": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "name": "PhantomGuard",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}

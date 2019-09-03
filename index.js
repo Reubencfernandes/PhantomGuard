@@ -47,6 +47,8 @@ client.on('ready', () => {
 client.on('message', msg => {
   if (msg.content === '!ping') {
     msg.reply('Pong!')
+  } else if (msg.content === '!beep') {
+	  msg.reply('Boop!')
   }
 })
 
@@ -54,7 +56,7 @@ client.on('message', (receivedMessage) => {
     // Prevent bot from responding to its own messages
     if (receivedMessage.author == client.user) {
         return
-    }
+	}
     
     // Check if the bot's user was tagged in the message
     if (receivedMessage.content.includes(client.user.toString())) {

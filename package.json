@@ -1,14 +1,17 @@
 {
   "name": "PhantomGuard",
   "version": "1.0.0",
-  "description": "",
+  "description": "Private moderation bot for PhantomDEV",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+  discord,
+  bot
+  ],
+  "author": "PhantomNimbi <phantomdev2018@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.5.1",

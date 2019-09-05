@@ -31,5 +31,19 @@
 >- Help commands - this is pretty self explanitory
 >- Stream commands - commands to link your Twitch, YouTube, Mixer, etc accounts to the server so the server an be notified when your live
 
+## Current Commands
+>- Gatekeeper - N/A
+>- github integration - N/A
+>- Administration commands - reload
+>- Moderation commands - prune, kick 
+>- Fun commands - N/A
+>- Music commands - N/A
+>- Search commands - N/A
+>- Utility commands - user-info, beep, foo, ping, avatar, server
+>- Custom Commands - N/A
+>- RSS Commands - N/A
+>- Help commands - N/A
+>- Stream commands - N/A
+
 ## Support Discord
 **PhantomDEV**: https://auttaja.io/PhantomDEV

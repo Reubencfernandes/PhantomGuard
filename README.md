@@ -12,5 +12,8 @@
 >- Use "npm run dev" to run in dev mode
 >- Use "npm run start" to start the bot
 
+## Information
+>- If you would like to join our development team, simply head over tou our Support Discord and let us know
+
 ## Support Discord
 **PhantomDEV**: https://auttaja.io/PhantomDEV

@@ -33,17 +33,17 @@
 
 ## Current Commands
 >- Gatekeeper - N/A
->- github integration - N/A
->- Administration commands - reload
->- Moderation commands - prune, kick 
->- Fun commands - N/A
->- Music commands - N/A
->- Search commands - N/A
->- Utility commands - user-info, beep, foo, ping, avatar, server
+>- github - N/A
+>- Administration - reload
+>- Moderation - prune, kick 
+>- Fun - N/A
+>- Music - N/A
+>- Search - N/A
+>- Utility - user-info, beep, foo, ping, avatar, server
 >- Custom Commands - N/A
->- RSS Commands - N/A
->- Help commands - N/A
->- Stream commands - N/A
+>- RSS - N/A
+>- Help - N/A
+>- Stream - N/A
 
 ## Support Discord
 **PhantomDEV**: https://auttaja.io/PhantomDEV

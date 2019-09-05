@@ -8,5 +8,9 @@
 ## devDependencies
 >- nodemon 1.19.2
 
+## How to use
+>- Use "npm run dev" to run in dev mode
+>- Use "npm run start" to start the bot
+
 ## Support Discord
 **PhantomDEV**: https://auttaja.io/PhantomDEV

@@ -1,5 +1,6 @@
 # PhantomGuard
- The official moderation bot of PhantomDEV
+The official moderation bot of PhantomDEV
+ <img src="https://github.com/phantomdev-github/PhantomGuard/blob/master/assets/banner.PNG"> </img>
 
 ## Dependencies
 >- **Discord.js**: 11.5.1

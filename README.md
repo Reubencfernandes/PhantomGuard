@@ -13,8 +13,9 @@
 >- Use "npm run start" to start the bot
 
 ## Information
->- PhantomGuard is a private modeation bot for PhantomDEV.
->- If you would like to join our development team, simply head over tou our Support Discord and let us know.
+>- PhantomGuard is a private modeation bot for PhantomDEV
+>- We use AWS Free hosting to host PhantomGuard
+>- If you would like to join our development team, simply head over tou our Support Discord and let us know
 
 ## Planned Features
 >- Gatekeeper

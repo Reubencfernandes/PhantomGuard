@@ -36,12 +36,12 @@ These are the features we have planned for PhantomGuard. Some might not get impl
 These are the commands currently available in PhantomGuard
 >- **Gatekeeper commands**: 
 >- **github commands**:
->- **Administration commands**: reload
->- **Moderation commands**: prune, kick 
+>- **Administration commands**: `reload`
+>- **Moderation commands**: `prune` `kick` 
 >- **Fun commands**:
 >- **Music commands**:
 >- **Search commands**:
->- **Utility commands**: user-info, beep, foo, ping, avatar, server
+>- **Utility commands**: `user-info` `beep` `foo` `ping` `avatar` `server`
 >- **Custom commands**:
 >- **RSS commands**:
 >- **Help commands**:

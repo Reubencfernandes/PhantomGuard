@@ -9,8 +9,8 @@
 >- **nodemon**: 1.19.2
 
 ## How to use
->- Use "npm run dev" to run in dev mode
->- Use "npm run start" to start the bot
+>- Use `npm run dev` to run in dev mode
+>- Use `npm run start` to start the bot
 
 ## Information
 >- PhantomGuard is a private modeation bot for PhantomDEV

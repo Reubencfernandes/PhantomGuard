@@ -24,7 +24,7 @@
 >- Moderation commands - this is pretty self explanitory
 >- Fun commands - simple fun commands to kill time with
 >- Music commands - commands to play music from youtube
->- Search commands - would like to use google search for these
+>- Search commands - searches google
 >- Utility commands - this is pretty self explanitory
 >- Custom Commands - command to create custom commands with (like what Dyno uses the dashboard for except entirely through a command)
 >- RSS Commands - commands to add RSS feeds to selectec channels

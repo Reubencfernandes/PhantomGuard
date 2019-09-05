@@ -18,6 +18,7 @@
 >- If you would like to join our development team, simply head over to our Support Discord and let us know
 
 ## Planned Features
+These are the features we have planned for PhantomGuard. Some might not get implemeted but we will try to get as many as possible.
 >- Gatekeeper - recaptia verfication, spam account protection, etc.
 >- github integration - allow users to link their own guthub accounts to keep the server updated on their projects
 >- Administration commands - this is pretty self explanitory
@@ -29,9 +30,10 @@
 >- Custom Commands - command to create custom commands with (like what Dyno uses the dashboard for except entirely through a command)
 >- RSS Commands - commands to add RSS feeds to selectec channels
 >- Help commands - this is pretty self explanitory
->- Stream commands - commands to link your Twitch, YouTube, Mixer, etc accounts to the server so the server an be notified when your live
+>- Stream commands - commands to link your Twitch, YouTube, Mixer, etc accounts to the server so the server can be notified when your live
 
 ## Current Commands
+These are the commands currently available in PhantomGuard
 >- Gatekeeper - N/A
 >- github - N/A
 >- Administration - reload

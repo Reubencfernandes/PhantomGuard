@@ -13,7 +13,24 @@
 >- Use "npm run start" to start the bot
 
 ## Information
->- If you would like to join our development team, simply head over tou our Support Discord and let us know
+>- PhantomGuard is a private modeation bot for PhantomDEV.
+>- If you would like to join our development team, simply head over tou our Support Discord and let us know.
+
+## Planned Features
+>- A web dashboard
+>- Gatekeeper
+>- Listing service integration
+>- github integration
+>- Administration commands
+>- Moderation commands
+>- Fun commands
+>- Music commands
+>- Search commands
+>- Utility commands
+>- Custom Commands
+>- RSS Commands
+>- Help commands
+>- Stream commands
 
 ## Support Discord
 **PhantomDEV**: https://auttaja.io/PhantomDEV

@@ -1,23 +1,19 @@
 {
   "name": "PhantomGuard",
   "version": "1.0.0",
-  "description": "Private moderation bot for PhantomDEV",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "keywords": [
-  discord,
-  bot
-  ],
   "author": "PhantomNimbi <phantomdev2018@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.5.1",
-    "dotenv": "^8.1.0"
+    "eslint": "^6.3.0"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.2"
   }
 }

@@ -17,9 +17,7 @@
 >- If you would like to join our development team, simply head over tou our Support Discord and let us know.
 
 ## Planned Features
->- A web dashboard
 >- Gatekeeper
->- Listing service integration
 >- github integration
 >- Administration commands
 >- Moderation commands

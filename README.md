@@ -24,8 +24,6 @@ These are the features we have planned for PhantomGuard. Some might not get impl
 >- **github commands**: allow users to link their own guthub accounts to keep the server updated on their projects
 >- **Administration commands**: this is pretty self explanitory
 >- **Moderation commands**: this is pretty self explanitory
->- **Fun commands**: simple fun commands to kill time with
->- **Music commands**: commands to play music from youtube
 >- **Search commands**: search for specified item(s) in the server
 >- **Utility commands**: this is pretty self explanitory
 >- **Custom commands**: command to create custom commands with (like what Dyno uses the dashboard for except entirely through a command)
@@ -39,8 +37,6 @@ These are the commands currently available in PhantomGuard
 >- **github commands**:
 >- **Administration commands**: `reload`
 >- **Moderation commands**: `prune` `kick` 
->- **Fun commands**:
->- **Music commands**:
 >- **Search commands**:
 >- **Utility commands**: `user-info` `beep` `foo` `ping` `avatar` `server`
 >- **Custom commands**:

@@ -9,3 +9,4 @@ module.exports = {
 
 		message.channel.send(`First argument: ${args[0]}`);
 	},
+};

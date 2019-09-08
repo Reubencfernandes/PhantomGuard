@@ -38,10 +38,9 @@ These are the commands currently available in PhantomGuard
 >- **Administration commands**: 
 >- **Moderation commands**: `prune` `kick` 
 >- **Search commands**:
->- **Utility commands**: `user-info` `beep` `foo` `ping` `avatar` `server`
->- **Custom commands**:
->- **RSS commands**:
->- **Help commands**:
+>- **Utility commands**:`beep` `ping` `avatar` 
+>- **Info Commands**: `user-info` `args-info` `server`
+>- **Help commands**: `help` 
 >- **Stream commands**:
 
 ## Support Discord

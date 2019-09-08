@@ -7,6 +7,7 @@ The official moderation bot of PhantomDEV
 >- **eslint**: 6.3.0
 
 ## devDependencies
+>- **eslint**: 6.3.0,
 >- **nodemon**: 1.19.2
 
 ## How to use

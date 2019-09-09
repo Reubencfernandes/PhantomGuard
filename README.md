@@ -26,7 +26,7 @@ These are the commands currently available in PhantomGuard
 >- **Moderation commands**: `prune` `kick` 
 >- **Search commands**:
 >- **Utility commands**:`beep` `ping` `avatar` 
->- **Info Commands**: `user-info` `args-info` `server`
+>- **Info Commands**: `user-info` `server-info` `bot-info` `args-info`
 >- **Help commands**: `help` 
 
 ## Support Discord

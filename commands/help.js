@@ -15,14 +15,14 @@ module.exports = {
 			data.push(commands.map(command => command.name).join(', '));
 			data.push(`\nYou can send \`${prefix}help [command name]\` to get info on a specific command!`);
 
-			return message.author.send(data, { split: true })
+			return message.channel.send(data, { split: true })
 				.then(() => {
-					if (message.channel.type === 'dm') return;
+					if (message.channel.type === 'text') return;
 					message.reply('I\'ve sent you a DM with all my commands!');
 				})
 				.catch(error => {
-					console.error(`Could not send help DM to ${message.author.tag}.\n`, error);
-					message.reply('it seems like I can\'t DM you!');
+					console.error(`Could not send commands list to ${message.author.tag}.\n`, error);
+					message.reply('I\'m sorry! It seems I am unable to send you my commands right now...');
 				});
 		}
 

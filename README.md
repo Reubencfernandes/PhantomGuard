@@ -5,6 +5,8 @@ The official moderation bot of PhantomDEV
 ## Dependencies
 >- **Discord.js**: 11.5.1
 >- **eslint**: 6.3.0
+>- **canvas**: 
+>- **fs**:
 
 ## devDependencies
 >- **eslint**: 6.3.0,
@@ -26,7 +28,7 @@ These are the commands currently available in PhantomGuard
 >- **Moderation commands**: `prune` `kick` 
 >- **Search commands**:
 >- **Utility commands**:`beep` `ping` `avatar` 
->- **Info Commands**: `user-info` `args-info` `server`
+>- **Info Commands**: `user-info` `server-info` `bot-info` `args-info`
 >- **Help commands**: `help` 
 
 ## Support Discord

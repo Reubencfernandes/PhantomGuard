@@ -5,6 +5,8 @@ The official moderation bot of PhantomDEV
 ## Dependencies
 >- **Discord.js**: 11.5.1
 >- **eslint**: 6.3.0
+>- **canvas**: 
+>- **fs**:
 
 ## devDependencies
 >- **eslint**: 6.3.0,

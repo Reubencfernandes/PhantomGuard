@@ -1,6 +1,11 @@
+const { prefix } = require('../config.json');
+const Discord = require('discord.js');
+
 module.exports = {
 	name: 'kick',
-	description: 'Tag a member and kick them (but not really).',
+	description: 'Kick the tagged user from the server.',
+	aliases: '[k]',
+	cooldown: 5,
 	guildOnly: true,
 	execute(message) {
 		if (!message.mentions.users.size) {

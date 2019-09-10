@@ -1,9 +1,10 @@
 const { prefix } = require('../config.json');
+const Discord = require('discord.js');
 
 module.exports = {
 	name: 'help',
-	description: 'List all of my commands or info about a specific command.',
-	aliases: ['commands'],
+	description: 'Provides details on a specified command.',
+	aliases: '[h]',
 	usage: '[command name]',
 	cooldown: 5,
 	execute(message, args) {
@@ -18,11 +19,11 @@ module.exports = {
 			return message.channel.send(data, { split: true })
 				.then(() => {
 					if (message.channel.type === 'text') return;
-					message.reply('I\'ve sent you a DM with all my commands!');
+					message.reply('Here is a list with all my commands!');
 				})
 				.catch(error => {
 					console.error(`Could not send commands list to ${message.author.tag}.\n`, error);
-					message.reply('I\'m sorry! It seems I am unable to send you my commands right now...');
+					message.reply('I\'m unable to respondto that command right now.');
 				});
 		}
 

@@ -4,8 +4,9 @@ const Discord = require('discord.js');
 module.exports = {
 	name: 'bot-info',
 	description: 'Deatails about the server',
+	aliases: '[binfo]',
 	usage: '[command name]',
-	cooldown: '[5]',
+	cooldown: 5,
 	execute(message, args) {
 		const embed = new Discord.RichEmbed()
 		.setTitle("Bot Info")

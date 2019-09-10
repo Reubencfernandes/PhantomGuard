@@ -4,8 +4,9 @@ const Discord = require('discord.js');
 module.exports = {
 	name: 'user-info',
 	description: 'User Details',
+	aliases: '[uinfo]',
 	usage: '[command name]',
-	cooldown: '[5]',
+	cooldown: 5,
 	execute(message, args) {
 		const embed = new Discord.RichEmbed()
 		.setTitle("User Info")

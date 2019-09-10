@@ -1,3 +1,6 @@
+const { prefix } = require('../config.json');
+const Discord = require('discord.js');
+
 module.exports = {
 	name: 'prune',
 	description: 'Prune up to 99 messages.',

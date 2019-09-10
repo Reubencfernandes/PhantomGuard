@@ -4,8 +4,9 @@ const Discord = require('discord.js');
 module.exports = {
 	name: 'server-info',
 	description: 'Deatails about the server',
+	aliases: '[sinfo]',
 	usage: '[command name]',
-	cooldown: '[5]',
+	cooldown: 5,
 	execute(message, args) {
 		const embed = new Discord.RichEmbed()
 		.setTitle("Server Info")

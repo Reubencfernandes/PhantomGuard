@@ -81,7 +81,7 @@ client.on('message', message => {
 
 	if (!command) return;
 
-	if (command.guildOnly && message.channel.type !== 'text') {
+	if (command.guildOnly && message.channel.type !== 'DM') {
 		return message.reply('I can\'t execute that command inside DMs!');
 	}
 

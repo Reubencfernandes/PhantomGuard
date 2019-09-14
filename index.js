@@ -6,10 +6,10 @@ const { prefix, token } = require('./config.json');
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
 
-const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
+const commandFiles = fs.readdirSync('./handler/commands').filter(file => file.endsWith('.js'));
 
 for (const file of commandFiles) {
-	const command = require(`./commands/${file}`);
+	const command = require(`./handler/commands/${file}`);
 	client.commands.set(command.name, command);
 }
 
@@ -31,13 +31,13 @@ const applyText = (canvas, text) => {
 };
 
 client.on('guildMemberAdd', async member => {
-	const channel = member.guild.channels.find(ch => ch.name === 'member-log');
+	const channel = member.guild.channels.find(ch => ch.name === 'welcome');
 	if (!channel) return;
 
 	const canvas = Canvas.createCanvas(700, 250);
 	const ctx = canvas.getContext('2d');
 
-	const background = await Canvas.loadImage('./wallpaper.jpg');
+	const background = await Canvas.loadImage('./assets/wallpaper.jpg');
 	ctx.drawImage(background, 0, 0, canvas.width, canvas.height);
 
 	ctx.strokeStyle = '#74037b';
@@ -45,7 +45,7 @@ client.on('guildMemberAdd', async member => {
 
 	ctx.font = '28px sans-serif';
 	ctx.fillStyle = '#ffffff';
-	ctx.fillText('Welcome to the server,', canvas.width / 2.5, canvas.height / 3.5);
+	ctx.fillText('Welcome to PhantomDEV,', canvas.width / 2.5, canvas.height / 3.5);
 
 	ctx.font = applyText(canvas, `${member.displayName}!`);
 	ctx.fillStyle = '#ffffff';
@@ -59,7 +59,7 @@ client.on('guildMemberAdd', async member => {
 	const avatar = await Canvas.loadImage(member.user.displayAvatarURL);
 	ctx.drawImage(avatar, 25, 25, 200, 200);
 
-	const attachment = new Discord.Attachment(canvas.toBuffer(), 'welcome-image.png');
+	const attachment = new Discord.Attachment(canvas.toBuffer(), './assets/welcome-image.png');
 
 	channel.send(`Welcome to the server, ${member}!`, attachment);
 });
@@ -69,6 +69,7 @@ client.on('message', async message => {
 		client.emit('guildMemberAdd', message.member || await message.guild.fetchMember(message.author));
 	}
 });
+
 
 client.on('message', message => {
 	if (!message.content.startsWith(prefix) || message.author.bot) return;
@@ -81,7 +82,7 @@ client.on('message', message => {
 
 	if (!command) return;
 
-	if (command.guildOnly && message.channel.type !== 'DM') {
+	if (command.guildOnly && message.channel.type !== 'text') {
 		return message.reply('I can\'t execute that command inside DMs!');
 	}
 

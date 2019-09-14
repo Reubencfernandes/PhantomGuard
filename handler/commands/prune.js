@@ -5,6 +5,7 @@ module.exports = {
 	name: 'prune',
 	description: 'Prune up to 99 messages.',
 	aliases: ['purge', 'p'],
+	cooldown: 5,
 	execute(message, args) {
 		if(message.member.roles.find("name", "Helper")){
 			const amount = parseInt(args[0]) + 1;

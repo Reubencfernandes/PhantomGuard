@@ -25,11 +25,11 @@ These are the commands currently available in PhantomGuard
 - **Gatekeeper commands**: `N/A`
 - **Administration commands**:  `kick` 
 - **Moderation commands**: `N/A`
-- **Helper Commands**: `forceprune`
+- **Helper Commands**: `forceprune` `prune`
 - **Search commands**: `N/A`
 - **Utility commands**:`beep` `ping` `avatar` 
 - **Info Commands**: `userinfo` `serverinfo` `botinfo` `argsinfo`
-- **Help commands**: `help` 
+- **Help commands**: `help` `commands`
 
 ## Support Discord
 - https://auttaja.io/PhantomDEV

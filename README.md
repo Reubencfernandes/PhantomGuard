@@ -31,9 +31,7 @@ These are the commands currently available in PhantomGuard
 - **Info Commands**: `userinfo` `serverinfo` `botinfo` `argsinfo`
 - **Help commands**: `help` `commands`
 
-## Support Discord
-- https://auttaja.io/PhantomDEV
+### For More Information
 
-## Website
-- https://phantomdev.enjin.com
-
+* [Support Discord server](https://auttaja.io/PhantomDEV)
+* [Official Website](https://phantomdev.enjin.com)

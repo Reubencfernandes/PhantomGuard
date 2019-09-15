@@ -7,7 +7,7 @@ module.exports = {
 	aliases: ['forcepurge', 'fp', 'fprune', 'fpurge'],
 	cooldown: 5,
 	execute(message, args) {
-		if(message.member.roles.find("name", "Helper")){
+		if(message.member.roles.find("name", "Moderator")){
 			const amount = parseInt(args[0]) + 1;
 			if (isNaN(amount)) {
 				return message.reply('that doesn\'t seem to be a valid number.');

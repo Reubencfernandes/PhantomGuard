@@ -7,11 +7,19 @@ module.exports = {
     aliases: '[ann]',
     cooldown: 5,
     guildOnly: true,
-    execute(message) {
-				if(command === 'annnounce') {
+	execute: function(message, args) {
+				if(message.member.roles.find("name", "Moderator")){
+					if (args.length < 2) return /* error message */;
+					
+					// Careful using this; if just an announcement is provided
+					// and it mentions a channel, that channel will be used.
 					let channel = message.mentions.channels.first();
+					if (!channel) return /* error message */;
+					
 					let announcement = args.slice(1).join(" ");
 					
-					channel.send(announcement);
+					channel.send(announcement)
+					.catch(console.error);
 				}
 }};
+					

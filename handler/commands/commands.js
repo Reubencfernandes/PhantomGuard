@@ -9,9 +9,9 @@ module.exports = {
 	cooldown: 5,
 	execute(message, args) {
 		const embed = new Discord.RichEmbed()
-		.setTitle("Bot Commands")
+		.setTitle("Commands")
 		.setColor(81, 52, 97)
-		.setDescription("PhantomGuard\'s commands.")
+		.setDescription("A complete list of PhantomGuard\'s commands.")
 		.setFooter("PhantomGuard", "https://cdn.discordapp.com/attachments/600463516046065696/620986337398489089/avatar.png")
 		.setImage("https://cdn.discordapp.com/attachments/600463516046065696/620896872302641152/banner.PNG")
 		.setThumbnail("https://cdn.discordapp.com/attachments/600463516046065696/620986337398489089/avatar.png")

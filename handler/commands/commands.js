@@ -19,11 +19,11 @@ module.exports = {
 		.setURL("https://auttaja.io/PhantomDEV")
 		.addBlankField(true)
 		.addField("Admin",
-		"kick, forceprune", true)
+		"kick", true)
 		.addField("Mod",
-		"N/A", true)
+		"forceprune, announce", true)
 		.addField("Helper",
-		"prune, announce", true)
+		"prune", true)
 		.addField("Info",
 		"userinfo, botinfo, serverinfo, argsinfo", true)
 		.addField("Help",

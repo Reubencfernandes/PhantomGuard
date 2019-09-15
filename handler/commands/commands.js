@@ -29,7 +29,7 @@ module.exports = {
 		.addField("Help",
 		"help, commands", true)
 		.addField("Utility", 
-		"ping, beep, foo, avatar", true)
+		"ping, beep, avatar", true)
 		.addBlankField(true)
 		.addField("Planned",
 		"ban, unban, tempBan, addRole, delRole, role, Gatekeeper, shutdown, restart, report, feedback, uptime, search", true);

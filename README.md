@@ -23,9 +23,9 @@ The official moderation bot of PhantomDEV
 ## Current Commands
 These are the commands currently available in PhantomGuard
 - **Gatekeeper commands**: 
-- **Administration commands**:  `kick` 
+- **Administration commands**:  `kick` `forceprune`
 - **Moderation commands**: 
-- **Helper Commands**: `forceprune` `prune`
+- **Helper Commands**: `prune` `announce`
 - **Search commands**: 
 - **Utility commands**:`beep` `ping` `avatar` 
 - **Info Commands**: `userinfo` `serverinfo` `botinfo` `argsinfo`

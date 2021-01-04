@@ -1,0 +1,20 @@
+const { prefix } = require('../config.json');
+const Discord = require('discord.js');
+
+module.exports = {
+	name: 'avatar',
+	description: 'Get the avatar URL of the tagged user(s), or your own avatar.',
+	aliases: ['icon', 'pfp', 'ava', 'a'],
+	cooldown: 5,
+	execute(message) {
+		if (!message.mentions.users.size) {
+			return message.channel.send(`Your avatar: <${message.author.displayAvatarURL}>`);
+		}
+
+		const avatarList = message.mentions.users.map(user => {
+			return `${user.username}'s avatar: <${user.displayAvatarURL}>`;
+		});
+
+		message.channel.send(avatarList);
+	},
+};

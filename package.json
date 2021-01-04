@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "author": "PhantomNimbi <phantomdev2018@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "canvas": "^2.6.0",
     "discord.js": "^11.5.1",
-    "eslint": "^6.3.0"
+    "eslint": "^6.3.0",
+    "package.json": "^2.0.1"
   },
   "devDependencies": {
     "nodemon": "^1.19.2"
